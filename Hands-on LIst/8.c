@@ -12,9 +12,9 @@ Close the file when end of file is reached.
 void main(){
     char *buffer[1]; 
     int CountSourcRead;
-    char * file = "read.txt";
+    char * file_name = "read.txt";
     
-    int file_desc   = open(file, O_RDONLY);
+    int file_desc   = open(file_name, O_RDONLY);
     if(file_desc==-1){
 	    printf("error while opening file\n");
     }
