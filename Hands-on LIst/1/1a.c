@@ -1,7 +1,6 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Create the following types of a files using (i) shell command (ii) system call - soft link(symlink system call)
+/*  Name - Roshan Yadav
+	Roll No - MT2024169
+	Problem - Create the following types of a files using (i) shell command (ii) system call - soft link(symlink system call)
 */
 
 #include<unistd.h>
