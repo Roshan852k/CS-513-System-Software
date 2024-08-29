@@ -20,7 +20,7 @@ void main(){
     unsigned long long start, end;
     
     start = rdtsc();
-    int pid = getpid();
+    pid_t pid = getpid();
     end = rdtsc();
     
     printf("Process ID: %d\n", pid);
