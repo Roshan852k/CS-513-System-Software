@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to create a file and print the file descriptor value. Use creat ( ) system call
+/* 
+	Name - Roshan Yadav
+	Roll No - MT2024169
+	Problem - Write a program to create a file and print the file descriptor value. Use creat ( ) system call
 */
 
 #include<stdio.h>
@@ -14,7 +14,7 @@ int main(){
 	  return  1;
 	}
 	printf("File created with file descriptor value : %d\n",file_desc);
-        return 0;
+    return 0;
 }
 
 /*
