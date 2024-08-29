@@ -11,7 +11,7 @@
 
 void main(){
 
-    int pid = getpid();
+    pid_t pid = getpid();
     int prior;
     
     prior = getpriority(PRIO_PROCESS, pid);
