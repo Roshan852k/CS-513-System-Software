@@ -20,11 +20,11 @@
 #include<time.h>
 void main(){
     int file_status;
-    char * file = "read.txt";
+    char * file_name = "read.txt";
     
     struct stat file_info;
     
-    file_status   = stat(file, &file_info);
+    file_status   = stat(file_name, &file_info);
     
     printf("File Status :-\n");
     printf("inode : %ld\n", file_info.st_ino);
