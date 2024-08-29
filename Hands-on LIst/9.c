@@ -26,6 +26,7 @@ void main(){
     
     file_status   = stat(file, &file_info);
     
+    printf("File Status :-\n");
     printf("inode : %ld\n", file_info.st_ino);
     printf("number of hard links : %ld\n", file_info.st_nlink);
     printf("uid : %d\n", file_info.st_uid);
@@ -41,6 +42,7 @@ void main(){
  /*
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 9.c -o 9
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./9
+File Status :-
 inode : 2643906
 number of hard links : 1
 uid : 1000
