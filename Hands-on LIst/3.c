@@ -7,8 +7,8 @@
 #include<stdio.h>
 #include<fcntl.h>
 int main(){
-	char *fname = "new_file.txt";
-	int file_desc = creat(fname, 0744);
+	char *file_name = "new_file.txt";
+	int file_desc = creat(file_name, 0744);
 	if(file_desc== -1){
 	  printf("Error while creating file");
 	  return  1;
