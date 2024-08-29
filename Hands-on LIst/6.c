@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
 */
 
 #include <unistd.h>
@@ -22,6 +22,7 @@ void main()
             break;
         }
     }
+    return 0;
 }
 
 /*

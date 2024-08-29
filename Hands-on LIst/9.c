@@ -1,31 +1,32 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to print the following information about a given file.
-            a. inode
-            b. number of hard links
-            c. uid
-            d. uid
-            e. size
-            f. block size
-            g. number of blocks
-            h. time of last access
-            i. time of last modification
-            j. time of last change
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to print the following information about a given file.
+        a. inode
+        b. number of hard links
+        c. uid
+        d. uid
+        e. size
+        f. block size
+        g. number of blocks
+        h. time of last access
+        i. time of last modification
+        j. time of last change
 */
 
 #include<stdio.h>
 #include<fcntl.h>
-#include <sys/stat.h> 
+#include<sys/stat.h> 
 #include<time.h>
+#include <unistd.h>
+
 void main(){
     int file_status;
     char * file_name = "read.txt";
-    
     struct stat file_info;
-    
+
     file_status   = stat(file_name, &file_info);
-    
+
     printf("File Status :-\n");
     printf("inode : %ld\n", file_info.st_ino);
     printf("number of hard links : %ld\n", file_info.st_nlink);
@@ -37,6 +38,7 @@ void main(){
     printf("time of last access : %s", ctime(&file_info.st_atim.tv_sec));
     printf("time of last modification : %s", ctime(&file_info.st_mtim.tv_sec));
     printf("time of last change : %s", ctime(&file_info.st_ctim.tv_sec));
+    return 0;
 }
  
  /*

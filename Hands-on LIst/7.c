@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to copy file1 into file2
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to copy file1 into file2
 */
 
 #include<stdio.h>
@@ -13,7 +13,6 @@ void main(){
     int CountSourcRead, CountDestinationWrite;
     char* src_file = "hello.txt";
     char* dest_file = "cp_hello.txt";
-    
     int src_file_desc   = open(src_file, O_RDONLY);
     if(src_file_desc==-1){
 	    printf("error while opening source file\n");
@@ -23,15 +22,14 @@ void main(){
     if(dest_file_desc==-1){
 	    printf("error while opening destination file\n");
     }
-    
     while ((CountSourcRead = read(src_file_desc, buffer, 100)) > 0)
     {
         write(dest_file_desc, buffer, CountSourcRead);   
     }
     printf("data copy sucessfully\n");
-    
     close(src_file_desc);
     close(dest_file_desc);
+    return 0;
 }
 
 /*

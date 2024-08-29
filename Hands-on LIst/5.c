@@ -1,19 +1,18 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to create five new files with infinite loop. Execute the program in the background
-and check the file descriptor table at /proc/pid/fd.
+/* 
+	Name - Roshan Yadav
+	Roll No - MT2024169
+	Problem - Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
 */
 
 #include<stdio.h>
 #include<fcntl.h>
+
 int main(){
 	char *fname1 = "sample_1.txt";
 	char *fname2 = "sample_2.txt";
 	char *fname3 = "sample_3.txt";
 	char *fname4 = "sample_4.txt";
 	char *fname5 = "sample_5.txt";
-	
 	while(1){
 	  int file_desc_1 = creat(fname1,0744);
 	  int file_desc_2 = creat(fname2,0744);
@@ -21,7 +20,7 @@ int main(){
           int file_desc_4 = creat(fname4,0744);
           int file_desc_5 = creat(fname5,0744);
 	}      
-        return 0;
+    return 0;
 }
 
 /*

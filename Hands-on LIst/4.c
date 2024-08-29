@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll N0 - MT2024169
-   
-   Problem - Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+/* 
+      Name - Roshan Yadav
+      Roll N0 - MT2024169
+      Problem - Write a program to open an existing file with read write mode. Try O_EXCL flag also.
 */
 
 #include<stdio.h>

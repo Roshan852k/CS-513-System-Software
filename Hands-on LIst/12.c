@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to find out the opening mode of a file. Use fcntl.
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to find out the opening mode of a file. Use fcntl.
 */
 
 #include<stdio.h>
@@ -55,6 +55,7 @@ void main(){
     }
     
     close(file_desc);
+    return 0;
 }
 
 

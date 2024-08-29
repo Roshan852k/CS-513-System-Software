@@ -6,6 +6,7 @@
 
 #include<stdio.h>
 #include<fcntl.h>
+
 int main(){
 	char *file_name = "new_file.txt";
 	int file_desc = creat(file_name, 0744);
