@@ -1,8 +1,8 @@
 /* Name - Roshan Yadav
    Roll No - MT2024169
    
-   Problem - Write a program to open a file, duplicate the file descriptor and append the file with both the
-descriptors and check whether the file is updated properly or not. - use dup
+   Problem - Write a program to open a file, duplicate the file descriptor and append the file with both thedescriptors and check whether the file is updated properly or not. 
+           - use dup
 */
 
 #include<stdio.h> 
