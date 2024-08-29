@@ -1,8 +1,8 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to open a file, duplicate the file descriptor and append the file with both thedescriptors and check whether the file is updated properly or not. 
-           - use dup
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to open a file, duplicate the file descriptor and append the file with both thedescriptors and check whether the file is updated properly or not. 
+            - use dup
 */
 
 #include<stdio.h> 
@@ -13,7 +13,6 @@
 
 void main()
 {
-
     char *fname = "hello.txt";                      
     int file_desc, dup_file_desc; 
     int CountDestinationWrite;                   
@@ -34,7 +33,8 @@ void main()
             perror("Error while writing file using duplicate FD\n");
 
         close(file_desc);
-      }
+    }
+    return;
 }
 
 /*
