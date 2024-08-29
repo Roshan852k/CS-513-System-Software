@@ -45,7 +45,7 @@ void main()
         printf("Return value of lseek: %d\n", offset);
         close(file_desc);
     }
-    return 0;
+    return;
 }
 
 /*

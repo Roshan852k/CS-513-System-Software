@@ -21,7 +21,7 @@ void main(){
         write(STDOUT_FILENO, buffer, 1);
     }
     close(file_desc);
-    return 0;
+    return;
 }
 
 /*

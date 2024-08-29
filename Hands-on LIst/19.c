@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to find out time taken to execute getpid system call. Use time stamp counter.
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to find out time taken to execute getpid system call. Use time stamp counter.
 */
 
 #include<stdio.h> 
@@ -18,13 +18,14 @@ static __inline__ unsigned long long rdtsc(void){
 
 void main(){
     unsigned long long start, end;
-    
+
     start = rdtsc();
     pid_t pid = getpid();
     end = rdtsc();
     
     printf("Process ID: %d\n", pid);
     printf("Time taken for getpid() system call: %llu\n", end - start);
+    return;
 }
 
 /*

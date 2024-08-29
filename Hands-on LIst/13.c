@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not   
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not   
             (check in $man 2 select).
 */
 
@@ -15,7 +15,6 @@ void main()
     fd_set readFDSet, writeFDSet;
     struct timeval time;
     int returnVal;
-
 
     FD_SET(STDIN_FILENO, &readFDSet);   
     FD_SET(STDOUT_FILENO, &writeFDSet);
@@ -34,6 +33,7 @@ void main()
     else{
         printf("No data was given for 10 seconds\n");
     }
+    return;
 }
 	
 /*

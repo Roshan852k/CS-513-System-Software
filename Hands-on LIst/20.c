@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Find out the priority of your running program. Modify the priority with nice command.
+/*  
+    Name - Roshan Yadav
+    Roll No - MT2024169  
+    Problem - Find out the priority of your running program. Modify the priority with nice command.
 */
 
 #include<stdio.h> 
@@ -10,7 +10,6 @@
 #include<unistd.h>
 
 void main(){
-
     pid_t pid = getpid();
     int prior;
     
@@ -19,7 +18,7 @@ void main(){
     
     prior = nice(10);
     printf("New priority of process wih pid %d: %d\n", pid, prior);
-    
+    return;
 }
 
 /*

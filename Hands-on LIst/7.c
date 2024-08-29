@@ -13,6 +13,7 @@ void main(){
     int CountSourcRead, CountDestinationWrite;
     char* src_file = "hello.txt";
     char* dest_file = "cp_hello.txt";
+    
     int src_file_desc   = open(src_file, O_RDONLY);
     if(src_file_desc==-1){
 	    printf("error while opening source file\n");
@@ -29,7 +30,7 @@ void main(){
     printf("data copy sucessfully\n");
     close(src_file_desc);
     close(dest_file_desc);
-    return 0;
+    return;
 }
 
 /*

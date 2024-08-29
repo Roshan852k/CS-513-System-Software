@@ -1,7 +1,7 @@
-/* Name - Roshan Yadav
-   Roll No - MT2024169
-   
-   Problem - Write a program to display the environmental variable of the user (use environ).
+/* 
+    Name - Roshan Yadav
+    Roll No - MT2024169
+    Problem - Write a program to display the environmental variable of the user (use environ).
 */
 
 #include<stdio.h>
@@ -16,9 +16,12 @@ int isUser(char *var)
 void main()
 {
     int iter = -1;
-    while (environ[++iter] != NULL)
-        if (isUser(environ[iter]))
+    while (environ[++iter] != NULL){
+        if (isUser(environ[iter])){
             printf("%s\n", environ[iter]);
+        }
+    }
+    return;
 }
 
 /*
