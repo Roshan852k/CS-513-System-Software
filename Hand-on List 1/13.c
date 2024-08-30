@@ -1,8 +1,11 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not   
-            (check in $man 2 select).
+/*   
+============================================================================
+Name : 13.c
+Author : Roshan Yadav
+Description : Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to verify whether the data is available within 10 seconds or not   
+              (check in $man 2 select).
+Date: 25th Aug, 2024.
+============================================================================
 */
 
 #include <sys/time.h>  
@@ -37,6 +40,7 @@ void main()
 }
 	
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 13.c -o 13
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./13
 ls
@@ -47,4 +51,5 @@ roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ l
  11b.c   13      14.c   1b.c   27     3.c     6.c   9     filewrite.txt   my_file.txt   my-repo        pass_key.pub     sample_2.txt   sample_5.txt   test.txt
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./13
 No data was given for 10 seconds
+============================================================================
 */

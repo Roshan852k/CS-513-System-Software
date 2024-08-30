@@ -1,7 +1,10 @@
-/* 
-	Name - Roshan Yadav
-	Roll No - MT2024169
-	Problem - Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
+/*   
+============================================================================
+Name : 5.c
+Author : Roshan Yadav
+Description : Write a program to create five new files with infinite loop. Execute the program in the background and check the file descriptor table at /proc/pid/fd.
+Date: 21th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -24,6 +27,7 @@ int main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 5.c -o 5
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./5
 ^C  
@@ -58,4 +62,6 @@ l-wx------ 1 roshan roshan   64 Aug 25 00:14 1015 -> /home/roshan/Software_Syste
 l-wx------ 1 roshan roshan   64 Aug 25 00:14 1016 -> /home/roshan/Software_System/hand-on-1/sample_4.txt*
 l-wx------ 1 roshan roshan   64 Aug 25 00:14 1017 -> /home/roshan/Software_System/hand-on-1/sample_5.txt*
 ^c
+============================================================================
 */
+

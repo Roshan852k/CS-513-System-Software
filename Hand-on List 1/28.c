@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll N0 - MT2024169
-    Problem - Write a program to get maximum and minimum real time priority.
+/*   
+============================================================================
+Name : 28.c
+Author : Roshan Yadav
+Description : Write a program to get maximum and minimum real time priority.
+Date: 30th Aug, 2024.
+============================================================================
 */
 
 #include<sched.h> 
@@ -30,8 +33,10 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 28.c -o 28
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./28
 The max priority with RR Scheduling Policy is : 99
 The min priority with RR Scheduling Policy is : 1
+============================================================================
 */

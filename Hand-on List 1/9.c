@@ -1,17 +1,20 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to print the following information about a given file.
-        a. inode
-        b. number of hard links
-        c. uid
-        d. uid
-        e. size
-        f. block size
-        g. number of blocks
-        h. time of last access
-        i. time of last modification
-        j. time of last change
+/*   
+============================================================================
+Name : 9.c
+Author : Roshan Yadav
+Description : Write a program to print the following information about a given file.
+              a. inode
+              b. number of hard links
+              c. uid
+              d. uid
+              e. size
+              f. block size
+              g. number of blocks
+              h. time of last access
+              i. time of last modification
+              j. time of last change
+Date: 23th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -41,7 +44,8 @@ void main(){
     return 0;
 }
  
- /*
+/*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 9.c -o 9
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./9
 File Status :-
@@ -55,5 +59,6 @@ number of blocks :  8
 time of last access : Sun Aug 25 00:26:55 2024
 time of last modification : Sun Aug 25 00:26:36 2024
 time of last change : Sun Aug 25 00:26:36 2024
+============================================================================
 */
-	
+

@@ -1,8 +1,10 @@
 /* 
-      Name - Roshan Yadav
-      Roll No - MT2024169 
-      Problem - Write a program to run a script at a specific time using a Daemon process.
-             
+============================================================================
+Name : 30.
+Author : Roshan Yadav
+Description : Write a program to run a script at a specific time using a Daemon process.
+Date: 30th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -27,6 +29,7 @@ int main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 30.c -o 30
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./30
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ Child process pid:7268
@@ -54,4 +57,5 @@ Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  7.7 us,  0.6 sy,  0.0 ni, 91.7 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
 MiB Mem :   7670.3 total,   3116.5 free,   3086.6 used,   2498.8 buff/cache     
 MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.   4583.8 avail Mem
+============================================================================
 */

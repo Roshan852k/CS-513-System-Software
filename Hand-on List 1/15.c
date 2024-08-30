@@ -1,11 +1,13 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to display the environmental variable of the user (use environ).
+/*   
+============================================================================
+Name : 15.c
+Author : Roshan Yadav
+Description : Write a program to display the environmental variable of the user (use environ).
+Date: 25th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
-
 extern char **environ;
 
 int isUser(char *var)
@@ -25,9 +27,11 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 15.c -o 15
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./15
 USER=roshan
+============================================================================
 */
 
 

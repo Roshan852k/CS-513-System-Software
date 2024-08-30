@@ -1,7 +1,10 @@
 /* 
-    Name - Roshan Yadav
-    Roll N0 - MT2024169
-    Problem - Write a program to create an orphan process.
+============================================================================
+Name : 24.c
+Author : Roshan Yadav
+Description :  Write a program to create an orphan process.
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -24,6 +27,7 @@ void main() {
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 24.c -o 24
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./24
 Parent pid: 5281
@@ -33,5 +37,5 @@ Child process going for 3 sec sleep
 Parent exit
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ Child pid after orphan:: 5282
 ^C
+============================================================================
 */
-

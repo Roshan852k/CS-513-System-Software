@@ -1,7 +1,10 @@
 /* 
-    Name - Roshan Yadav
-    Roll N0 - MT2024169
-    Problem - Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO, SCHED_RR).
+============================================================================
+Name : 29.c
+Author : Roshan Yadav
+Description : Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO, SCHED_RR).
+Date: 30th Aug, 2024.
+============================================================================
 */
 
 #include<sched.h> 
@@ -44,8 +47,10 @@ void main()
     }
 }
 
-/* 
+/*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./29
 Current policy is OTHER
 Current policy is 0
+============================================================================
 */

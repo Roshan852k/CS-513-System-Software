@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to find out the opening mode of a file. Use fcntl.
+/*   
+============================================================================
+Name : 12.c
+Author : Roshan Yadav
+Description : Write a program to find out the opening mode of a file. Use fcntl.
+Date: 25th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -58,9 +61,10 @@ void main(){
     return 0;
 }
 
-
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 12.c -o 12
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./12
 The file is opened in write-only mode
+============================================================================
 */

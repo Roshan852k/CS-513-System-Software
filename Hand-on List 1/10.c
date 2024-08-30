@@ -1,9 +1,12 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10 bytes (use lseek) and write again 10 bytes.
-    a. check the return value of lseek
-    b . open the file with od and check the empty spaces in between the data.
+/*   
+============================================================================
+Name : 10.c
+Author : Roshan Yadav
+Description : Write a program to open a file with read write mode, write 10 bytes, move the file pointer by 10 bytes (use lseek) and write again 10 bytes.
+              a. check the return value of lseek
+              b . open the file with od and check the empty spaces in between the data.
+Date: 23th Aug, 2024.
+============================================================================
 */
 
 #include <sys/stat.h>  
@@ -49,7 +52,9 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 10.c -o 10
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./10
 Return value of lseek: 30
+============================================================================
 */

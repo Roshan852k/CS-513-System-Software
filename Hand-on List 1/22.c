@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll N0 - MT2024169
-    Problem - Write a program, open a file, call fork, and then write to the file by both the child as well as the parent processes. Check output of the file.
+/*   
+============================================================================
+Name : 22.c
+Author : Roshan Yadav
+Description : Write a program, open a file, call fork, and then write to the file by both the child as well as the parent processes. Check output of the file.
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -27,11 +30,12 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ cat sample_1.txt
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 22.c -o 22
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./22
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ cat sample_1.txt
 Parent Process
 Child Process
+============================================================================
 */
-

@@ -1,9 +1,12 @@
-/* 
-    Name - Roshan Yadav
-    Roll N0 - MT2024169
-    Problem - Write a program to execute an executable program.
-            a. use some executable program
-            b. pass some input to an executable program. (for example execute an executable of $./a.out name)
+/*  
+============================================================================
+Name : 26.c
+Author : Roshan Yadav
+Description : Write a program to execute an executable program.
+              a. use some executable program
+              b. pass some input to an executable program. (for example execute an executable of $./a.out name)
+Date: 30th Aug, 2024.
+============================================================================
 */
 
 #include<unistd.h>
@@ -16,7 +19,9 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 26.c -o 26
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./26 hello.txt
 Regular File
+============================================================================
 */

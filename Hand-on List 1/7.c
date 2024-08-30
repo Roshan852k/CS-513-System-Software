@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to copy file1 into file2
+/*  
+============================================================================
+Name : 7.c
+Author : Roshan Yadav
+Description : Write a program to copy file1 into file2
+Date: 23th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -34,6 +37,7 @@ void main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 7.c -o 7
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./7
 data copy sucessfully
@@ -42,5 +46,6 @@ Welcome to Linux
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ cat cp_hello.txt
 Welcome to Linux
 
+============================================================================
 */
 	
