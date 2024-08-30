@@ -4,9 +4,9 @@
     Problem - Write a program, call fork and print the parent and child process id.
 */
 
-#include <stdio.h>
-#include <unistd.h>  
-#include <sys/types.h>  
+#include<stdio.h>
+#include<unistd.h>  
+#include<sys/types.h>  
 
 void main(){
     pid_t p_pid, c_pid;
