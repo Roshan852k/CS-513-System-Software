@@ -1,8 +1,11 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to open a file, duplicate the file descriptor and append the file with both thedescriptors and check whether the file is updated properly or not. 
+/*   
+============================================================================
+Name : 11a.c
+Author : Roshan Yadav
+Description : Write a program to open a file, duplicate the file descriptor and append the file with both thedescriptors and check whether the file is updated properly or not. 
             - use dup
+Date: 23th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h> 
@@ -38,6 +41,7 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ cat hello.txt
 Welcome to Linux
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 11a.c -o 11a
@@ -45,4 +49,5 @@ roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ .
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ cat hello.txt
 Welcome to Linux
 Using original FDUsing duplicate FD
+============================================================================
 */
