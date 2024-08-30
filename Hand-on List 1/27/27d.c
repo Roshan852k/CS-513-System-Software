@@ -1,8 +1,11 @@
-/* 
-      Name - Roshan Yadav
-      Roll No - MT2024169
-      Problem - Write a program to execute ls -Rl by the following system calls
-                d. execv
+/*  
+============================================================================
+Name : 27d.c
+Author : Roshan Yadav
+Description : Write a program to execute ls -Rl by the following system calls
+              d. execv
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -15,6 +18,7 @@ void main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 27d.c -o 27d
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./27d
 ./my-repo:
@@ -31,6 +35,6 @@ total 152
 -rw-rw-r-- 1 roshan roshan   1038 Aug 27 19:14 8.c
 -rw-rw-r-- 1 roshan roshan   1689 Aug 25 00:58 9.c
 -rw-rw-r-- 1 roshan roshan     35 Aug 21 19:43 README.md
+============================================================================
 */
-
 
