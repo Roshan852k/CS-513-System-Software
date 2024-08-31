@@ -1,7 +1,10 @@
 /*  
-	Name - Roshan Yadav
-	Roll No - MT2024169 
-	Problem - Create the following types of a files using (i) shell command (ii) system call - FIFO (mkfifo Library Function or mknod system call)
+============================================================================
+Name : 1c.c
+Author : Roshan Yadav
+Description : Create the following types of a files using (i) shell command (ii) system call - FIFO (mkfifo Library Function or mknod system call)
+Date: 21th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -33,6 +36,7 @@ int main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 1c.c -o 1c
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./1c
 pipe created successfully using mkfifo
@@ -40,4 +44,5 @@ pipe created successfully using mknod
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ll mymkfifo mymknod-fifo
 prwx------ 1 roshan roshan 0 Aug 27 18:35 mymkfifo|
 -rwx------ 1 roshan roshan 0 Aug 27 18:35 mymknod-fifo*
+============================================================================
 */
