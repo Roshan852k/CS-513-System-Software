@@ -1,10 +1,4 @@
-/*  
-	Name - Roshan Yadav
-	Roll No - MT2024169
-	Problem - 
-*/
-
-/*  
+/*   
 ============================================================================
 Name : 1a.c
 Author : Roshan Yadav
