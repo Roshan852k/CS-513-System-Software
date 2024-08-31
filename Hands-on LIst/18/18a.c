@@ -1,9 +1,12 @@
 /* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to perform Record locking.
+============================================================================
+Name : 18a.c
+Author : Roshan Yadav
+Description : Write a program to perform Record locking.
               a. Implement write lock
               Create three records in a file. Whenever you access a particular record, first lock it then modify/access to avoid race condition.
+Date: 30th Aug, 2024.
+============================================================================
 */
 
 #include<fcntl.h>
@@ -51,6 +54,7 @@ int main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 18a.c -o 18a
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./18a
 Enter the train no (1,2,3) :-1
@@ -59,4 +63,5 @@ no of tickets sold is 3
 press Enter to book ticket
 
 Your ticket no is 4
+============================================================================
 */

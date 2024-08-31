@@ -1,7 +1,10 @@
 /* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Create three records in a file. Whenever you access a particular record, first lock it then modify/access to avoid race condition.
+============================================================================
+Name : 18record.c
+Author : Roshan Yadav
+Description : Create three records in a file. Whenever you access a particular record, first lock it then modify/access to avoid race condition.
+Date: 30th Aug, 2024.
+============================================================================
 */
 
 #include<fcntl.h>
