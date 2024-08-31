@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+/*  
+============================================================================
+Name : 6.c
+Author : Roshan Yadav
+Description : Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+Date: 23th Aug, 2024.
+============================================================================
 */
 
 #include <unistd.h>
@@ -26,8 +29,10 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 6.c -o 6
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./6
 My name is Roshan Yadav
 My name is Roshan Yadav
+============================================================================
 */

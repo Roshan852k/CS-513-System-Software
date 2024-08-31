@@ -1,7 +1,10 @@
-/*  
-	Name - Roshan Yadav
-	Roll No - MT2024169
-	Problem - Write a simple program to execute in an infinite loop at the background. Go to /proc directory and identify all the process related information in the corresponding proc directory.
+/*    
+============================================================================
+Name : 2.c
+Author : Roshan Yadav
+Description : Write a simple program to execute in an infinite loop at the background. Go to /proc directory and identify all the process related information in the corresponding proc directory.
+Date: 21th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -14,7 +17,8 @@ int main(){
 }
 
 /*
-oshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 2.c -o 2
+============================================================================
+roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 2.c -o 2
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./2 
 ^C  
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./2 &
@@ -79,4 +83,5 @@ Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,000
 Mems_allowed_list:	0
 voluntary_ctxt_switches:	0
 nonvoluntary_ctxt_switches:	68
+============================================================================
 */

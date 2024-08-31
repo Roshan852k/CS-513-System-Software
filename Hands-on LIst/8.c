@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to open a file in read only mode, read line by line and display each line as it is read. Close the file when end of file is reached.
+/*  
+============================================================================
+Name : 8.c
+Author : Roshan Yadav
+Description : Write a program to open a file in read only mode, read line by line and display each line as it is read. Close the file when end of file is reached.
+Date: 23th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h> 
@@ -25,6 +28,7 @@ void main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ cat read.txt
 I am Roshan Yadav
 Doing Mtech from IIITB
@@ -34,5 +38,6 @@ roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ .
 I am Roshan Yadav
 Doing Mtech from IIITB
 Learning LInux Commnad 
+============================================================================
 */
 	

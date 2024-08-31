@@ -1,7 +1,10 @@
-/* 
-      Name - Roshan Yadav
-      Roll N0 - MT2024169
-      Problem - Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+/*  
+============================================================================
+Name : 4.c
+Author : Roshan Yadav
+Description : Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+Date: 21th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -23,11 +26,13 @@ int main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 4.c -o 4
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./4
 Error in opening file
 : File exists
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ll my_file.txt
 -rw-r--r-- 1 roshan roshan 0 Aug 25 00:40 my_file.txt
+============================================================================
 */
 

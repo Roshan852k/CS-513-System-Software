@@ -1,7 +1,10 @@
-/*  
-    Name - Roshan Yadav
-    Roll No - MT2024169  
-    Problem - Find out the priority of your running program. Modify the priority with nice command.
+/*    
+============================================================================
+Name : 20.c
+Author : Roshan Yadav
+Description : Find out the priority of your running program. Modify the priority with nice command.
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h> 
@@ -22,8 +25,10 @@ void main(){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 20.c -o 20
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./20
 Current priority of process wih pid 5239: 0
 New priority of process wih pid 5239: 10
+============================================================================
 */

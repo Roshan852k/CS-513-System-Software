@@ -1,9 +1,12 @@
-/* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to find the type of a file.
-        a. Input should be taken from command line.
-        b. program should be able to identify any type of a file.
+/*   
+============================================================================
+Name : 14.c
+Author : Roshan Yadav
+Description : Write a program to find the type of a file.
+              a. Input should be taken from command line.
+              b. program should be able to identify any type of a file.
+Date: 25th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -58,9 +61,11 @@ void main(int argc, char *argv[]){
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 14.c -o 14
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./14
 File name not pass as argumnet
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./14 hello.txt
 Regular File
+============================================================================
 */

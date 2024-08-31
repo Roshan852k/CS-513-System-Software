@@ -1,7 +1,10 @@
-/* 
-    Name - Roshan Yadav
-    Roll N0 - MT2024169
-    Problem - Write a program to create three child processes. The parent should wait for a particular child (use waitpid system call).
+/*   
+============================================================================
+Name : 25.c
+Author : Roshan Yadav
+Description : Write a program to create three child processes. The parent should wait for a particular child (use waitpid system call).
+Date: 28th Aug, 2024.
+============================================================================
 */
 
 #include<unistd.h>    
@@ -59,6 +62,7 @@ void main()
 }
 
 /*
+============================================================================
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 25.c -o 25
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./25
 Child A created
@@ -71,5 +75,5 @@ Child A is now up
 Child B is now up
 Child C is now up
 Child C has terminated with exit status = 0
-
+============================================================================
 */
