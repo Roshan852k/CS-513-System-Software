@@ -1,8 +1,11 @@
 /* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to perform mandatory locking.
+============================================================================
+Name : 16b.c
+Author : Roshan Yadav
+Description : Write a program to perform mandatory locking.
               b. Implement read lock
+Date: 25th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -41,6 +44,7 @@ void main()
 }
 
 /*
+============================================================================
 Process 1:
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 16b.c -o 16b
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./16b
@@ -50,6 +54,6 @@ Process 2:
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./16b
 File is now locked for reading
 
+============================================================================
 */
-
 

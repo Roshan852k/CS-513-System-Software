@@ -1,8 +1,11 @@
 /* 
-    Name - Roshan Yadav
-    Roll No - MT2024169
-    Problem - Write a program to perform mandatory locking.
+============================================================================
+Name : 16a.c
+Author : Roshan Yadav
+Description : Write a program to perform mandatory locking.
               a. Implement write lock
+Date: 25th Aug, 2024.
+============================================================================
 */
 
 #include<stdio.h>
@@ -44,6 +47,7 @@ void main()
 }
 
 /*
+============================================================================
 Process 1:
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 16a.c -o 16a
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./16a
@@ -53,6 +57,7 @@ Process 2:
 roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./16a
 File is now locked for writing
 
+============================================================================
 */
 
 
