@@ -1,9 +1,9 @@
-/* 
-==========================================================================
-Name : 27b.c
+/*   
+============================================================================
+Name : 27e.c
 Author : Roshan Yadav
 Description : Write a program to execute ls -Rl by the following system calls
-              b. execlp
+              e. execvp
 Date: 28th Aug, 2024.
 ============================================================================
 */
@@ -12,14 +12,15 @@ Date: 28th Aug, 2024.
 #include<unistd.h>
 
 void main(){
-      execlp("/bin/ls", "ls", "-Rl", "./my-repo", NULL);
+      char* arg[] ={"/bin/ls", "-Rl","./my-repo",NULL};
+      execvp(arg[0], arg);
       return;
 }
 
 /*
 ============================================================================
-roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 27b.c -o 27b
-roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./27b
+roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ gcc 27e.c -o 27e
+roshan@roshan-ASUS-TUF-Gaming-F15-FX506HF-FX506HF:~/Software_System/hand-on-1$ ./27e
 ./my-repo:
 total 152
 -rw-r--r-- 1 roshan roshan    790 Aug 27 18:20 1a.c
@@ -36,6 +37,5 @@ total 152
 -rw-rw-r-- 1 roshan roshan     35 Aug 21 19:43 README.md
 ============================================================================
 */
-
 
 
