@@ -10,7 +10,7 @@ Date: 9th Sep, 2024.
 #include<stdio.h>
 #include<unistd.h>
 
-static __inline__ unsigned long long rdtsc(void){
+static __inline__ unsigned long long rdtsc(void){   // to calculate cpu cycle
     unsigned int dst;
     __asm__ __volatile__("rdtsc" : "=A" (dst));
     return dst;
@@ -25,8 +25,8 @@ void main(){
     end = rdtsc();
     
     int cpu_cycles = end - start;
-    double cpu_frequency_hz = 2.6 * 1e9;
-    double total_time_taken = (cpu_cycles / cpu_frequency_hz) * 1e9;
+    double cpu_frequency_ghz = 2.6; // proc/cpuinfo - 2.6GHZ
+    double total_time_taken = (cpu_cycles / cpu_frequency_ghz);
     printf("PID : %d\n", p_id);
     printf("Total time to taken to execute 100 getppid() system call in ns: %0.2f\n", total_time_taken);
     
