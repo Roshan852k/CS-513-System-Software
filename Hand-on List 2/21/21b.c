@@ -1,6 +1,6 @@
 /*  
 ============================================================================
-Name : 20a.c
+Name : 20b.c
 Author : Roshan Yadav
 Description : Write two programs so that both can communicate by FIFO -Use two way communications.
 Date: 10th Sep, 2024.
