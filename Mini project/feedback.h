@@ -1,16 +1,6 @@
-#ifndef FEEDBACK_H
-#define FEEDBACK_H
+struct Feedback {
+    int customerID;         // Unique ID for the customer
+    char feedback[100];     // Feedback message
+};
 
-#define MAX_COMMENT_LENGTH 256
-
-typedef struct {
-    int id;
-    int user_id;
-    int rating;
-    char comment[MAX_COMMENT_LENGTH];
-} Feedback;
-
-int get_all_feedback(Feedback** feedbacks);
-int add_feedback(const Feedback *feedback);
-
-#endif
+void add_customer_feedback(int connFD, int userID);

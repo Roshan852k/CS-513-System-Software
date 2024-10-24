@@ -1,12 +1,28 @@
 #ifndef ADMIN_H
 #define ADMIN_H
 
-#include "user.h"
+//#include "customer.h"  // Include customer for managing customer details
 
-void handle_admin_menu(int user_id, int socket_desc);
-int add_new_bank_employee(int socket_desc);
-int manage_user_roles(int socket_desc);
-void modify_user_details(int socket_desc);
-void change_admin_password(int socket_desc, int user_id) ;
+struct Admin {
+    int adminID;
+    char name[50];
+    char pass[20];
+};
 
-#endif 
+// Function Prototypes
+void admin_login(int connFD);
+//void admin_menu(int connFD);
+void admin_menu(int connFD, int userID);
+// int authenticate_admin(int adminID, const char* password);
+int authenticate_admin(int connFD, int userID, const char* adminID, const char* password);
+//void admin_logout(int connFD);
+void admin_logout(int connFD, int userID);
+
+
+// Admin Functionalities
+void add_new_employee(int connFD);
+//void modify_customer_employee_details(int connFD);
+void modify_employee_details(int connFD);
+void manage_user_roles(int connFD);
+void admin_change_password(int connFD);
+#endif

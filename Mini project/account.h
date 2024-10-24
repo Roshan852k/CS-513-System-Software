@@ -1,29 +1,36 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
-#include <stdbool.h>
 
-#define MAX_ACCOUNTS 1000
+#define MAX_TRANSACTIONS 10
+#define MAX_TRANSACTION_LEN 256
 
-typedef struct {
-    int id;
-    int user_id;
-    double balance;
-    int is_active;
-} Account;
+// Structure for Account Information
+struct Account {
+    int customerID;      // Added customerID
+    char name[50];
+    char pass[50];
+    float balance;
+    int accountNumber;   // Added accountNumber
+    int status;          // 1 for Active, 0 for Deactivated
+};
 
-typedef enum {
-    DEPOSIT,
-    WITHDRAW,
-    TRANSFER
-} TransactionType;
+// Function Prototypes
+void customer_login(int connFD);
+void customer_menu(int connFD,int userID);
+void view_account_balance(int connFD,int userID);
+void deposit_money(int connFD,int userID);
+void withdraw_money(int connFD,int userID);
+void transfer_funds(int connFD,int userID);
+void apply_for_loan(int connFD,int userID);
+void change_password(int connFD,int userID);
+void add_customer_feedback(int connFD,int userID);
+//void view_transaction(int connFD,int userID);
+void view_transaction_history(int connFD,int userID);
 
-bool initialize_account_system();
-Account* find_account_by_user_id(int user_id);
-Account* find_account_by_id(int account_id);
-bool update_account_balance(int account_id, double amount, TransactionType type);
-bool transfer_between_accounts(int from_account_id, int to_account_id, double amount);
-void close_account_system();
-int set_account_status(int account_id, int status);
-Account* create_account(int user_id); 
+void customer_logout(int connFD, int userID);
+// Helper function
+int authenticate_customer(int userID, const char *password);
+void remove_user_from_session(int userID);
+
 
 #endif
